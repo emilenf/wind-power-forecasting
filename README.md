@@ -12,8 +12,10 @@ Main libraries used:
 - XGBoost
 
 ## Usage
-
-Install pipenv and run the following command
+```bash
+pip install pipenv
+```
+then
 ```bash
 pipenv install
 ```
