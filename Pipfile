@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+xgboost = "==0.90"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+sklearn = "*"
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+ipykernel = "*"
+pylint = "*"
+black = "==19.10b0"
+isort = "*"
+
+[requires]
+python_version = "3.7"
