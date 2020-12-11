@@ -8,7 +8,7 @@ This is my approach to solving the wind power forecasting for the day ahead ener
 Main libraries used:
 
 - Pandas
-- Scikit-sklearn
+- Scikit-learn
 - XGBoost
 
 ## Usage
