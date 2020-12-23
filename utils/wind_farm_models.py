@@ -12,6 +12,14 @@ from utils.wind_utils import FeatureEngineering, WindFarmPrediction
 
 
 class WindFarmModel:
+    """Class for Wind Farm models.
+    Contains pipeline that performs:
+    - data preprocessing,
+    - feature engineering,
+    - model training,
+    - prediction
+    """
+    
     def __init__(self, train_data, target, feat_eng_parameters, algo_hyperparams):
         self.train_data = train_data
         self.feat_eng_parameters = feat_eng_parameters
